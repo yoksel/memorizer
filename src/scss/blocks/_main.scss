@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.words {
+
+  max-width: 300px;
+  margin: auto;
+
+  &__item {
+    margin-bottom: .5rem;
+
+    &::before {
+      content: '—';
+      margin-right: .5rem;
+    }
+  }
+}
